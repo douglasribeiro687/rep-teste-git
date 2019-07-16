@@ -1,10 +1,10 @@
 -- testes de gravacao no repositorio GIT --
 Joao da silva
 
-Douglas Ribeiro
+Douglas Ribeiro da Silva
 
-Rafael Oliveira
+Rafael Oliveira da Silva
 
-Daiane de Oliveira
+Gleice Daiane Lopes de Oliveira
 
-Luisa Oliveira
+Luisa Oliveira da Silva
