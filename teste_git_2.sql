@@ -18,4 +18,8 @@ git pull = sincronizar o projeto do repositorio remoto no repositorio local
 
 git checkout = voltar uma versão do repositorio ou voltar apenas um arquivo com base nas gravações feitas
 
-git checkout HEAD = voltar uma alteração após o git add
+git checkout HEAD = voltar uma alteração após o git add ( sem commit )
+
+git chechout HEAD~1 = voltar a alteração do arquivo em 1 commit ( sem o comando push ) - apenas local
+
+git checkout HEAD~1 hard = voltar a altecao do arquivo em 1 commit - deleta todos os logs realizados após esse commit 
