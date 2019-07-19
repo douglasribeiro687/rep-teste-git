@@ -23,3 +23,5 @@ git checkout HEAD = voltar uma alteração após o git add ( sem commit )
 git chechout HEAD~1 = voltar a alteração do arquivo em 1 commit ( sem o comando push ) - apenas local
 
 git checkout HEAD~1 hard = voltar a altecao do arquivo em 1 commit - deleta todos os logs realizados após esse commit 
+
+-- agora vamos falar de conflitos no mesmo arquivo --
