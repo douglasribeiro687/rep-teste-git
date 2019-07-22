@@ -1,5 +1,7 @@
 teste git comandos
 
+git remote add <url do repositorio remoto> = criar um repositorio remoto.
+
 git status = verificar status dos arquivos que foram add no repositorio;
 
 git log = listas as ultimas atualizações gravadas;
