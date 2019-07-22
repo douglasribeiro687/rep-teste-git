@@ -24,4 +24,11 @@ git chechout HEAD~1 = voltar a alteração do arquivo em 1 commit ( sem o comand
 
 git checkout HEAD~1 hard = voltar a altecao do arquivo em 1 commit - deleta todos os logs realizados após esse commit 
 
--- agora vamos falar de conflitos no mesmo arquivo --
+-- novos comandos --
+
+git branch = criar uma nova estande para gravar alterações.
+
+git branch -d = deletar uma estande existente.
+
+git checkout <nome da branch> = apontar para o git que está é a principal.
+
