@@ -34,3 +34,4 @@ git branch -d = deletar uma estande existente.
 
 git checkout <nome da branch> = apontar para o git que está é a principal.
 
+-- aula de branching --
