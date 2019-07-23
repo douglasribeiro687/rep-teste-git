@@ -35,3 +35,5 @@ git branch -d = deletar uma estande existente.
 git checkout <nome da branch> = apontar para o git que está é a principal.
 
 -- proxima aula é sobre branching --
+
+ git push -u origin branch-dev-01 = criar a nova branc no repositorio remoto
