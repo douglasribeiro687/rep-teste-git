@@ -46,4 +46,8 @@ git merge <nome da branch> = comparar a versão master com a branch criada.
 
 git rebase <branch master> = juntar os commits da branch atual dentro da master.
 
+git rebase --continue = confirmar o rebase na brench master
+
+git rebase --abort = cancelar a tentativa de rebase na branch master
+
 teste com o comando "git rebase <branch>".
