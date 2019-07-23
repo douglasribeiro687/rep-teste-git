@@ -38,4 +38,4 @@ git checkout <nome da branch> = apontar para o git que está é a principal.
 
  git push -u origin branch-dev-01 = criar a nova branc no repositorio remoto
 
- dasfasfsdfasdfsdf
+ git merge <nome da branch> = comparar a versão master com a branch criada.
