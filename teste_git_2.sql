@@ -34,8 +34,16 @@ git branch -d = deletar uma estande existente.
 
 git checkout <nome da branch> = apontar para o git que está é a principal.
 
+git checkout -b <nome da branch> = criar uma nova branch e faz o checkout auto.
+
 -- proxima aula é sobre branching --
 
- git push -u origin branch-dev-01 = criar a nova branc no repositorio remoto
+git push -u origin branch-dev-01 = criar a nova branc no repositorio remoto
 
- git merge <nome da branch> = comparar a versão master com a branch criada.
+git merge <nome da branch> = comparar a versão master com a branch criada.
+
+-- implementr os commits de outros branchs a master ---
+
+git rebase <branch master> = juntar os commits da branch atual dentro da master.
+
+teste com o comando "git rebase <branch>".
