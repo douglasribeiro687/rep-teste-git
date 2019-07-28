@@ -51,3 +51,12 @@ git rebase --continue = confirmar o rebase na brench master
 git rebase --abort = cancelar a tentativa de rebase na branch master
 
 teste com o comando "git rebase <branch>".
+
+-- aula de tag ---
+
+git tag <nome da tag= criando uma versão estatica do repositorio que não podera ser alterada - controle de versão.
+
+git push origin <nome da tag> = enviar a tag para o git remoto
+
+git checkout <nome da tag> = baixar essa tag do repositorio
+
