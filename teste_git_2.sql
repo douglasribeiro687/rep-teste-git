@@ -42,6 +42,8 @@ git push -u origin branch-dev-01 = criar a nova branc no repositorio remoto
 
 git merge <nome da branch> = comparar a versão master com a branch criada.
 
+git fetch = baixar as atualizações do git remoto mais não atualiza o repositório.
+
 -- implementr os commits de outros branchs a master ---
 
 git rebase <branch master> = juntar os commits da branch atual dentro da master.
