@@ -42,6 +42,8 @@ git checkout <nome da branch> = apontar para o git que está é a principal.
 
 git checkout -b <nome da branch> = criar uma nova branch e faz o checkout auto.
 
+git checkout <nome do arquivo> = fazer checkout do arquivo em especial - antes de gravar na stage.
+
 -- proxima aula é sobre branching --
 
 git push -u origin branch-dev-01 = criar a nova branc no repositorio remoto
@@ -82,3 +84,24 @@ Fork = realizar uma copia de qualquer repositorio no GitHub e trazer para o seu 
 Issues = organizar tarefas a serem feitas dentro do projeto no repositorio. (não é do git e sim da ferramenta remota GitHub).
 
 No git commit vc deve apontar a Issues se desejar fechar no Github - git commit -m "Bug corrigido. Closes #001"
+
+Pull Request = é quando solicitamos que nossas alterações sejam lançadas em alguma 
+branch local ou um repositorio que sofreu um Fork.
+
+Guia de introdução ao fluxo de alteração em repositorios no GitHub
+https://guides.github.com/introduction/flow/
+
+-- EXERCICIO FINAL DO CURSO Git e GitHub --
+
+Fazer um fork do repositorio github.com/BrOrlandi/GitTrainingWall
+
+Clonar o projeto com git clone
+
+Gerar uma branch para realizar a alteração.
+
+Alteração/inclusão da nova html com o novo usuario.
+
+-- Pull Request --
+
+git fetch origin pull/ID/head:branch
+
