@@ -50,7 +50,7 @@ git merge <nome da branch> = comparar a versão master com a branch criada.
 
 git fetch = baixar as atualizações do git remoto mais não atualiza o repositório.
 
--- implementr os commits de outros branchs a master ---
+-- implementar os commits de outros branchs a master ---
 
 git rebase <branch master> = juntar os commits da branch atual dentro da master.
 
@@ -67,3 +67,18 @@ git tag <nome da tag= criando uma versão estatica do repositorio que não poder
 git push origin <nome da tag> = enviar a tag para o git remoto
 
 git checkout <nome da tag> = baixar essa tag do repositorio
+
+
+-- alguns programas ou plugins pra uso do git --
+
+Egit = eclipse - boa utilização
+
+GitEye = GUI fácil de usar, mesma IDE do eclipse
+
+-- Seguindo o Github nas redes --
+
+Fork = realizar uma copia de qualquer repositorio no GitHub e trazer para o seu uso.
+
+Issues = organizar tarefas a serem feitas dentro do projeto no repositorio. (não é do git e sim da ferramenta remota GitHub).
+
+No git commit vc deve apontar a Issues se desejar fechar no Github - git commit -m "Bug corrigido. Closes #001"
