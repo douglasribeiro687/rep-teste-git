@@ -1,4 +1,4 @@
-teste git comandos
+-- teste git comandos --
 
 git remote add <url do repositorio remoto> = criar um repositorio remoto.
 
@@ -6,11 +6,17 @@ git status = verificar status dos arquivos que foram add no repositorio;
 
 git log = listas as ultimas atualizações gravadas;
 
-git add = adicionar arquivos ao repositório local;
+git add <nome do arquivo> = adicionar arquivos ao repositório local;
 
 git commit = gravar as alterações efetuadas nos aruqivos do repositorio local;
 
 git push = levar as alterações local para o repositorio remoto.
+
+Link para criar a chave SSH e não precisar de usuário e senha toda hora. 
+https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Paste the text below, substituting in your GitHub email address.
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 -- novos comandos --
 
@@ -61,4 +67,3 @@ git tag <nome da tag= criando uma versão estatica do repositorio que não poder
 git push origin <nome da tag> = enviar a tag para o git remoto
 
 git checkout <nome da tag> = baixar essa tag do repositorio
-
