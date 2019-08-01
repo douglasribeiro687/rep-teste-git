@@ -70,6 +70,7 @@ git push origin <nome da tag> = enviar a tag para o git remoto
 
 git checkout <nome da tag> = baixar essa tag do repositorio
 
+git checkout -- . = TESTAR ESSE COMANDO
 
 -- alguns programas ou plugins pra uso do git --
 
@@ -115,3 +116,38 @@ git ignore = adicionar uma lista de arquivos que devem ser ignorados pelo Git.
 criar um arquivo com o nome ".gitignore" e colocar todos os arquivos ou pastas que não devem ser versionados.
 
 git commit --amend = alterar o último commit que foi feito no repositorio.
+mensagem do commit e adiciona mais arquivos.
+
+git stash = guardar as alterações que estão no work directory. Caso esteja com varios arquivos alterados 
+e precisa abrir uma nova branch ou fazer chechout de outro arquivo vc salvo os arquivos em 
+stash e não perde as alterações atuais sem precisar fazer commit.
+
+git stash list = mostrar as alterações que foram empilhadas na estande antes de salvar.
+
+git stash pop = pega a ultima alteração salva no diretory e aplicar no repositorio.
+
+git cerry-pick <branch> = aplica um commit em outros brenchs, é importante quando vc tem uma branch que está 
+desatualizada porém foi realizado uma bugfix e vc quer levar essa correção para as outras branchs mais atualizadas. (sem precisar fazer individual em cada branch).
+
+git blame = mostar as alterações feitas em um arquivo por linha. (mais fácil utilizar via GUI).
+
+git bisect = permite fazer uma busca binária dentro dos arquivos alterados. Procurar por mudanças que foram realizadas DE PARA.
+
+git bisect start = iniciando o modo bisect
+
+git bisect good <id do commit> = 
+
+git bisect bad <id do commit> = 
+
+git bisect reset = sair do modo bisect 
+
+definir qual é o commit good e o commit bad = isso vai preparar o bisect pra realizar a busca binária entre os commits
+
+-- GIT GAME --
+
+git game - site com desafios em Git git-game.com
+
+-- GitHub Pages --
+
+https://douglasribeiro687.github.io/rep-teste-git/
+
