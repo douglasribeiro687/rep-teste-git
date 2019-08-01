@@ -103,5 +103,15 @@ Alteração/inclusão da nova html com o novo usuario.
 
 -- Pull Request --
 
+Fazendo checkout em uma branch feita em Pull REquest.
+
 git fetch origin pull/ID/head:branch
 
+
+-- Git além do básico --
+
+git ignore = adicionar uma lista de arquivos que devem ser ignorados pelo Git.
+
+criar um arquivo com o nome ".gitignore" e colocar todos os arquivos ou pastas que não devem ser versionados.
+
+git commit --amend = alterar o último commit que foi feito no repositorio.
