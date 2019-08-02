@@ -151,5 +151,8 @@ git game - site com desafios em Git git-game.com
 
 https://douglasribeiro687.github.io/rep-teste-git/
 
-teste
-teste
+-- GitHub --
+
+WebHooks e serviços = permite integrar eventos do repositório com outras aplicações.
+Por exmplo podemos automatizar quando acontece um push no repositório rodar alguma ferramente de testes esquematizados.
+
