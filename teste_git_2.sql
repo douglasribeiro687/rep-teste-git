@@ -13,7 +13,7 @@ git commit = gravar as alterações efetuadas nos aruqivos do repositorio local;
 git push = levar as alterações local para o repositorio remoto.
 
 Link para criar a chave SSH e não precisar de usuário e senha toda hora. 
-https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agentl
 
 Paste the text below, substituting in your GitHub email address.
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
