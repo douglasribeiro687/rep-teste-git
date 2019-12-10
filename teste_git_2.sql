@@ -156,3 +156,10 @@ https://douglasribeiro687.github.io/rep-teste-git/
 WebHooks e serviços = permite integrar eventos do repositório com outras aplicações.
 Por exmplo podemos automatizar quando acontece um push no repositório rodar alguma ferramente de testes esquematizados.
 
+
+-- Git Kraken GUI
+
+www.gitkraken.com
+
+
+
